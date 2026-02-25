@@ -12,7 +12,7 @@
 - Download Repository from github
 - open project on intellij
 - download Cucamber for Java Plugin, So You can create Feature Files
-- Run the runners class OR run Login Feature File
+- Run the runners class OR run each Feature File separately
 
 
 ##Note 
