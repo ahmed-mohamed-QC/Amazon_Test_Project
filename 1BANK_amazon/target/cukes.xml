@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="157.287" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-02-25T05:13:40.367525300Z">
+<testcase classname="Account access for guest user" name="Verify guest user cannot access Your Orders page" time="35.854">
+<system-out><![CDATA[
+Given user hovers on Hello..................................................passed
+When user selects Your Orders...............................................passed
+Then user should be redirected to sign in page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Account access for guest user" name="Verify guest user cannot access Your Addresses page" time="46.93">
+<system-out><![CDATA[
+Given user hovers on Hello, sign in Account & Lists.........................passed
+When user selects Your Addresses............................................passed
+Then user should be redirected to sign in...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Account access for guest user" name="Verify guest user can access Your Lists intro screen" time="27.013">
+<system-out><![CDATA[
+Given user hovers on Hello, sign in Account.................................passed
+When user selects Your Lists................................................passed
+Then Your Lists intro screen should be displayed............................passed
+]]></system-out>
+</testcase>
+<testcase classname="add Items to cart" name="Verify that Items are added to cart correctly" time="34.131">
+<system-out><![CDATA[
+Given user click on Todays deals............................................passed
+When user Clicks on secondnd category.......................................passed
+And Click on firstst product in this category...............................passed
+And Click on second item in this product....................................passed
+And Select Quantity two.....................................................passed
+And Click on add to cart....................................................passed
+Then go to cart.............................................................passed
+Then Verify correct items are added to the cart (name, price, qty and subtotal is correct).passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing login functionality" name="Verify that user cannot log in with valid but not registered email" time="12.984">
+<system-out><![CDATA[
+Given user click on Signup OR Login.........................................passed
+When user enter valid Email.................................................passed
+And user press on continue..................................................passed
+Then verify a message Looks like you're new to Amazon appears...............passed
+]]></system-out>
+</testcase>
+</testsuite>
